@@ -62,11 +62,6 @@ float TToABV::ABV(void) {
 }
 
 //private:
-bool _isVapor = true;
-float _pressure = 1013.25;
-float _temperature = 0;
-
-
 // calculate the the boiling temperature of water for the measured pressure in Celsius
 float TToABV::h2oBoilingPoint(float p) {
 
