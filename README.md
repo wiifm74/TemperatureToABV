@@ -45,4 +45,4 @@ void loop() {
 ```
 
 ## License
-See license [here](../blob/master/LICENSE)
+See license [here](../master/LICENSE)
