@@ -17,6 +17,7 @@ If the corrected temperature is lower than the azeotrope the negative index of t
 If the corrected temperature is higher than 100°C  0 is returned.
 
 ## Install
+The instructions for installing an Arduino library can be found [here](https://www.arduino.cc/en/Guide/Libraries).
 
 ## Usage
 ```c++
@@ -57,4 +58,4 @@ void loop() {
 ```
 
 ## License
-See license [here](../master/LICENSE)
+See license [here](../master/LICENSE).
