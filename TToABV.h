@@ -22,6 +22,7 @@
 
 #ifndef T2ABV
 #define T2ABV
+
 #include <math.h>
 #include <stdint.h>
 #include <avr/pgmspace.h>
@@ -39,9 +40,9 @@ class TToABV {
     float ABV(void);
 
   private:
-    bool _isVapor;
-    float _pressure;
-    float _temperature;
+    bool _isVapor = true;
+float _pressure = 1013.25;
+float _temperature = 0;
 
     float h2oBoilingPoint(float p);
     float azeotrope(float p);
