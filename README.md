@@ -6,7 +6,7 @@ This library receives temperature (°C) and pressure (millibars) to calculate al
 
 The arrays of these functions are based on the Technical Paper 19 by Herminio M. Brau dated April 1957.
 
-Pressure influence is calculated with the Clausius Clapeyron relation.
+Pressure influence is calculated using the [Clausius-Clapeyron relation](https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation).
 
 For the liquid ABV, the temperature is corrected with the change in boiling point of water. At higher altitudes there will be some error for the high ABV values.
 
