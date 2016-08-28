@@ -1,6 +1,6 @@
 # TemperatureToABV
 Vistion Stills Arduino library for converting temperature of liquid or vapor to alcohol by volume, encapsulating functions created
-by Edwin Croissant.
+by Edwin Croissant.  The file TtoABV_SMT172.h from [https://github.com/EdwinCroissantArduinoLibraries/T2ABV](https://github.com/EdwinCroissantArduinoLibraries/T2ABV) is copied here.
 
 ## Explanation
 This library receives temperature (°C) and pressure (millibars) to calculate alcohol by volume (ABV) of liquid or vapor.
@@ -16,9 +16,6 @@ For the vapor ABV the temperature is corrected with the change in boiling point 
 If the corrected temperature is lower than the azeotrope the negative index of the array is returned.
 
 If the corrected temperature is higher than 100°C  0 is returned.
-
-## Requirements
-This library requires that you download and install [https://github.com/EdwinCroissantArduinoLibraries/T2ABV](https://github.com/EdwinCroissantArduinoLibraries/T2ABV).
 
 ## Install
 Download and install this library in your Arduino library folder.
