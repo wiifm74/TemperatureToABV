@@ -1,7 +1,5 @@
-
-
-#ifndef TEMPERATURE2ABV
-#define TEMPERATURE2ABV
+#ifndef T2ABV
+#define T2ABV
 
 class TToABV {
   
