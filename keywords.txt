@@ -5,17 +5,17 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-TToABV		KEYWORD1
+TToABV	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-Liquid		KEYWORD2
-Vapor		KEYWORD2
+Liquid	KEYWORD2
+Vapor	KEYWORD2
 Pressure	KEYWORD2
 Temperature	KEYWORD2
-ABV			KEYWORD2
+ABV	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
